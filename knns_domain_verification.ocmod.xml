@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<modification>
+		<id><![CDATA[[OCMOD] Domain verification]]></id>
+		<name><![CDATA[[OCMOD] Domain verification]]></name>
+		<code>knns_domain_verification</code>
+		<version>1.0.0</version>
+		<author><![CDATA[kanenas.net (aka Nikolas Branis) - nbran@kanenas.net]]></author>
+		<link>https://kanenas.net/</link>
+		<file path="catalog/view/theme/*/template/common/header.twig" error="log">
+			<operation error="skip">
+				<search><![CDATA[</head>]]></search>
+				<add position="before"><![CDATA[
+{# kanenas: knns_domain_verification.ocmod.xml (start) << #}
+<meta name="facebook-domain-verification" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+<meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXX" />
+{# kanenas: knns_domain_verification.ocmod.xml (end) << #}
+				]]></add>
+			</operation>
+		</file>
+	</modification>
