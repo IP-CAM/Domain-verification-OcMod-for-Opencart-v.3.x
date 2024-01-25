@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<modification>
-		<id><![CDATA[[OCMOD] Domain verification]]></id>
-		<name><![CDATA[[OCMOD] Domain verification]]></name>
+		<id><![CDATA[Domain verification]]></id>
+		<name><![CDATA[Domain verification]]></name>
 		<code>knns_domain_verification</code>
 		<version>1.0.0</version>
-		<author><![CDATA[kanenas.net (aka Nikolas Branis) - nbran@kanenas.net]]></author>
+		<author><![CDATA[<font color="#7F458C"><b>kanenas.net (aka Nikolas Branis)</b></font> - nbran@kanenas.net]]></author>
 		<link>https://kanenas.net/</link>
 		<file path="catalog/view/theme/*/template/common/header.twig" error="log">
 			<operation error="skip">
