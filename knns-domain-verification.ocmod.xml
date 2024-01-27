@@ -2,7 +2,7 @@
 	<modification>
 		<id><![CDATA[Domain verification]]></id>
 		<name><![CDATA[Domain verification]]></name>
-		<code>knns_domainverification</code>
+		<code>knns-domain-verification</code>
 		<version>1.0.0</version>
 		<author><![CDATA[<font color="#7F458C"><b>kanenas.net (aka Nikolas Branis)</b></font> - nbran@kanenas.net]]></author>
 		<link>https://kanenas.net/</link>
